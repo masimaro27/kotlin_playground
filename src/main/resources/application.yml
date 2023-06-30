@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+szs:
+  datasource:
+    main:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/playground
+      username: root
+      password: tkaWjatka@123
+    replica:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/playground
+      username: root
+      password: tkaWjatka@123
+
+
